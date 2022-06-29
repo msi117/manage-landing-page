@@ -1,0 +1,33 @@
+.about {
+    margin: 2rem 4rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__difference h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+    max-width: 450px;
+    color: var(--Dark-Blue);
+    margin: 2rem 0;
+}
+
+.about__difference p {
+    max-width: 300px;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 14px;
+    line-height: 24px;
+    margin: 1.5rem 0;
+}
+
+.about__features {
+    max-width: 500px;
+}
+
+.about__features-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}

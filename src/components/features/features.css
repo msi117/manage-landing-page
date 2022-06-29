@@ -1,0 +1,18 @@
+.features {
+    margin: 0 6rem 2rem 2rem;
+}
+
+.features h3 {
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 400px;
+    color: var(--Dark-Blue);
+}
+
+.features p {
+    max-width: 300px;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 14px;
+    line-height: 24px;
+    margin: 1rem 0;
+}

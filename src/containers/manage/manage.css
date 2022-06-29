@@ -1,0 +1,32 @@
+.manage {
+    margin: 2rem 4rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manage__content {
+    padding-top: 1.5rem;
+}
+
+.manage__content h1 {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    max-width: 400px;
+    color: var(--Dark-Blue);
+    margin: 2.5rem 0;
+}
+
+.manage__content p {
+    max-width: 300px;
+    color: var(--Dark-Grayish-Blue);
+    font-size: 14px;
+    line-height: 24px;
+    margin: 2rem 0;
+}
+
+.manage__graphs img{
+    width: 100%;
+    height: 100%;
+}

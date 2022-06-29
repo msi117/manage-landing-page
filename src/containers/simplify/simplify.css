@@ -1,0 +1,19 @@
+.simplify {
+    margin-top: 5rem;
+    /* background-image: url(../../data/images/bg-tablet-pattern.svg); */
+    background-repeat: no-repeat;
+    background-color: var(--Bright-Red);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.simplify h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    max-width: 500px;
+    color: var(--Vary-Light-Gray);
+    margin: 2.5rem 0;
+}
+

@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 4rem;
+}
+
+.header__logo {
+    margin-top: .5rem;
+}
+
+.header__nav {
+    text-align: center;
+}
+
+.header__nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav--li {
+    margin: .5rem;
+    list-style: none;
+}
+
+.header__nav--li a{
+    text-decoration: none;
+    color: var(--Dark-Blue);
+    font-size: 12px;
+}
+
+.header__nav--li a:hover {
+    opacity: 0.6;
+}
+
+.header__menu {
+    display: none;
+}
+
+
+@media screen and (max-width: 750px) {
+    .header__menu {
+        display: inline-block;
+    }
+}

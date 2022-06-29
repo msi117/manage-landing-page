@@ -1,0 +1,23 @@
+.community {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.community h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    color: var(--Dark-Blue);
+    margin: 2.5rem 0;
+    padding-bottom: 3rem;
+}
+
+.community__reviews {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
