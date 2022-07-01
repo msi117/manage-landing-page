@@ -31,3 +31,26 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+
+@media screen and (max-width: 900px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .about {
+        margin: 0;
+        padding: 1rem 0;
+    }
+    .about__difference h1 {
+        font-size: 24px;
+    }
+
+    .about__features-content {
+        justify-content: center;
+    }
+   
+}
+

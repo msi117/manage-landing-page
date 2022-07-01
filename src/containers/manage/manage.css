@@ -30,3 +30,45 @@
     width: 100%;
     height: 100%;
 }
+
+@media screen and (max-width: 1050px) {
+    .manage__content h1 {
+        font-size: 36px;
+        line-height:46px ;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .manage {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .manage__graphs {
+        order: -1;
+    }
+
+    .manage__content {
+        width: 90%;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .manage {
+       margin: 1rem;
+       padding: 0;
+    }
+    .manage__content h1 {
+        font-size: 26px;
+        line-height:36px;
+        
+    }
+    .manage__content p {
+        font-size: 12px;
+        line-height:20px ;
+    }
+}

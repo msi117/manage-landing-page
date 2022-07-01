@@ -1,4 +1,4 @@
-import logo from '../../data/images/logo.svg'
+import {ReactComponent as Logo} from '../../data/images/logo.svg'
 import facebook from '../../data/images/icon-facebook.svg'
 import instagram from '../../data/images/icon-instagram.svg'
 import pinterest from '../../data/images/icon-pinterest.svg'
@@ -14,7 +14,7 @@ function Footer() {
     <div className='footer'>
         <div className="footer__icons">
             <div className="footer__icons--logo">
-                <img src={logo} alt="logo" />
+                <Logo className='logo' />
             </div>
             <div className="footer__icons--socials">
                 <img src={facebook} alt="facebook" />
