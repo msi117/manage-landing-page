@@ -33,7 +33,7 @@
 .header__nav--li a{
     text-decoration: none;
     color: var(--Dark-Blue);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .header__nav--li a:hover {
@@ -117,5 +117,9 @@
     .header {
         padding: 10px;
         margin: 10px;
+    }
+
+    .header button {
+        display: none;
     }
 }

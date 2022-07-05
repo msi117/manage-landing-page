@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
 }
 
 .community h1 {
@@ -13,11 +14,28 @@
     color: var(--Dark-Blue);
     margin: 2.5rem 0;
     padding-bottom: 3rem;
+    /* border: 1px solid red; */
+
 }
 
 .community__reviews {
-    margin-bottom: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 90%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+@media screen and (max-width: 750px) {
+    .community h1 {
+        font-size: 36px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .community h1 {
+        font-size: 24px;
+    }
 }

@@ -19,8 +19,8 @@
 
 body {
   font-family: 'Be Vietnam Pro', sans-serif;
-  background-image: url('./data/images/bg-tablet-pattern.svg');
+  background-image:  url('./data/images/bg-tablet-pattern.svg'), url('./data/images/bg-tablet-pattern.svg');
+  background-position: 120% -20%, -80% 50%;
+  background-repeat: no-repeat, no-repeat;
   background-color: var(--Very-Light-Gray);
-  background-position: top 60% left 180%;
-  background-repeat: no-repeat;
 }

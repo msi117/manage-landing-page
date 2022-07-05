@@ -1,6 +1,8 @@
 .simplify {
     margin-top: 5rem;
-    /* background-image: url(../../data/images/bg-tablet-pattern.svg); */
+    /* background-image:  url('../../data/images/bg-tablet-pattern.svg'), url('../../data/images/bg-tablet-pattern.svg');
+    background-position: 120% -20%, -80% 50%;
+    background-repeat: no-repeat, no-repeat; */
     background-repeat: no-repeat;
     background-color: var(--Bright-Red);
     display: flex;
@@ -26,7 +28,9 @@
 
 @media screen and (max-width: 375px) {
     .simplify h1{
-       font-size: 24px;
-       line-height: 34px;
+       font-size: 30px;
+       line-height: 44px;
+       text-align: center;
+       width: 350px;
     }
 }

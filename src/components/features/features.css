@@ -7,7 +7,7 @@
     font-weight: 700;
     max-width: 400px;
     color: var(--Dark-Blue);
-    text-align: center;
+    text-align: left;
 }
 
 .features p {
@@ -33,5 +33,16 @@
         left: -15px;
         top: 0px;
         z-index: -1;
+        border-radius: 5px;
     }
 }
+@media screen and (max-width: 550px) {
+       .features h3 {
+        font-size: 14px;
+       }
+
+       .features p{
+        font-size: 12px;
+       }
+}
+

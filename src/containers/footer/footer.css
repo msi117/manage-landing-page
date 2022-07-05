@@ -88,11 +88,26 @@
 
   .footer__input p{
     position: absolute;
-    bottom: 5px;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
   }
 
   .footer__icons--socials {
     order: -1;
   }
+}
+
+@media screen and (max-width: 375px) {
+  .footer__input input {
+    width: 230px;
+    padding: 10px;
+  }
+
+  .footer__input p{
+
+  }
+
 }
